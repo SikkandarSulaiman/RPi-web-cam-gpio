@@ -26,7 +26,7 @@ function load(){
 }
 
 function tog(pin){
-        request.open("GET","l.php?call="+pin, true);
+        request.open("GET","toggle.php?call="+pin, true);
         request.send(null);
         return false;
 }
